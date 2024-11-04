@@ -13,6 +13,72 @@ video {
   display: block;
 }
 
-label {
-  display: block;
+body {
+  display: flex;
+  width: 400px;
+  padding: 32px;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 16px;
+  border-radius: 32px;
+  border: 1px solid #ccc;
+  background: #fff;
 }
+
+h2 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 32px;
+  font-weight: 600;
+}
+
+h3 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 24px;
+  font-weight: 500;
+}
+
+.login-label {
+  font-family: Helvetica, sans-serif;
+  color: #555;
+}
+
+.login-group {
+  align-items: center;
+  border: nonex;
+}
+
+.login-input {
+  width: 336px;
+  color: #555;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  border-radius: 4px;
+  line-height: 40px;
+  border: 1px solid #ccc;
+}
+
+.login-input:hover {
+  border: 1px solid black;
+}
+
+button {
+  width: 336px;
+  display: flex;
+  height: 40px;
+  justify-content: center;
+  align-items: center;
+}
+
+.login-submit {
+  border-radius: 4px;
+  background-color: #1576ea;
+  color: white;
+  border: none;
+  font-weight: 700;
+}
+.login-submit:hover {
+  background: black;
+}
+/* Je n'ai pas réussi à changer
+la typo alors j'en ai mis une autre*/
